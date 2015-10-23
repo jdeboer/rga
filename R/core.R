@@ -9,7 +9,7 @@ rga$methods(
                            samplingLevel = "DEFAULT") {
 
             if (missing(ids)) {
-                stop("please enter a profile id")
+                stop("please enter a view id")
             }
 
             if (missing(batch) || batch == FALSE) {
